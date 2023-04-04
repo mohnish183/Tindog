@@ -1,0 +1,172 @@
+
+/* image */
+
+
+
+.title-image{
+    transform: rotate(20deg);
+    margin-top: 60px; 
+    position: absolute;
+    right: 30%;
+}
+
+.check{
+    margin-left: 120px;
+    height: 50px;
+}
+
+.target{
+    margin-left: 120px;
+    height: 50px;
+}
+.heart{
+    margin-left: 120px;
+    height: 50px;
+}
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Button */
+.Download-button{
+    margin: 5% 3% 5% 0%;
+}
+/* elements */
+/* id, section */
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    padding-bottom:10% ;
+
+}  
+/* Navbar */
+
+.nav-item{
+    padding: 0px 2px;
+}
+
+/* class*/
+.h_1{
+ font-family: "Montserrat-black"; 
+    size: 3rem;
+    line-height: 3.5rem;
+    margin-top: 80px;
+    
+    
+}
+.container{
+    
+    padding: 3% 15%;
+    
+}
+#features{
+    
+    padding: 7% 15%;
+    background-color: #fff;
+    font-family: montserrat-dark;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+
+    
+}
+.feature-box h3{
+background-color: aliceblue;
+font-weight: bold;
+font-size: 1.5rem;
+text-align: center;
+margin-top: 20px;
+}
+
+.feature-box p{
+
+padding: 0 60px;
+}
+
+/* testimonials */
+
+#testimonials{
+    
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+}
+#testimonials h2{
+    font-family: montserrat-bold;
+    font-size: 3rem;
+    line-break: 1.5rem;
+    
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* pricing */
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.card{
+    text-align: center;
+}
+
+.text_2{
+    padding: 8% 12%;
+    text-align: center;
+}
+#pricing{
+    padding: 100px;
+}
+
+@media(max-width:1000px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+/* cta */
+
+#cta{
+    background-color: #ff4c68;
+    padding: 10% 5%;
+    text-align: center;
+    color: #fff;
+}
+.cta_heading{
+    font-size: 3.5rem;
+    line-height: 1.5rem;
+}
+.download_button1{
+    margin: 6% 2% ;
+}
+/* footer */
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.logo{
+    margin-left: 10px;
+    margin-right: 10px
+}
